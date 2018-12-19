@@ -7,4 +7,7 @@ class MainController < ApplicationController
 
   def terms
   end
+
+  def member
+  end
 end

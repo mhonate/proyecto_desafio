@@ -27,18 +27,20 @@
     <section id="projects" class="projects-section bg-light">
       <div class="container">
 
-        <!-- Featured Project Row -->
+        <!-- Featured Project Row (modificar el alto de la página para que calze con una ventana)-->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="<%= asset_path 'bg-masthead.jpg' %> alt="">
+            <!--<img class="img-fluid mb-3 mb-lg-0" src="<%= asset_path 'bg-masthead.jpg' %> alt="">-->
+            <iframe width="720" height="360" src="https://www.youtube-nocookie.com/embed/JwjvT-9Zz58?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4>Cómo funciona Talisman</h4>
-              <p class="text-black-50 mb-0">Si eres músico, crea una cuenta, sube tus canciones y vende derechos de tus obras con quienes adoran tu música. Si quieres ser parte del desarrollo de un artista compra sus derechos y si tienes éxito recibirás royalties por los ingresos que generan las canciones que compras. !</p>
+              <p class="text-black-50 mb-0">Si eres músico, crea una cuenta, sube tus canciones y vende derechos de tus obras con quienes adoran tu música. Si quieres ser parte del desarrollo de un artista compra sus derechos y si tienes éxito recibirás royalties por los ingresos que generan las canciones que compras.</p>
             </div>
           </div>
         </div>
+
 
         <!-- Project Music -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -52,6 +54,8 @@
                   <h4 class="text-white">Soy Músico</h4>
                   <p class="mb-0 text-white-50">Soy músico y quiero compartir mis canciones para desarrollar mi carrrera.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
+                  <br>
+                  <a href="#" class="btn btn-primary js-scroll-trigger">Crear cuenta</a>
                 </div>
               </div>
             </div>
@@ -70,6 +74,8 @@
                   <h4 class="text-white">Soy Fan</h4>
                   <p class="mb-0 text-white-50">Quiero ser dueño de la música que me gusta y ser parte del desarrollo mis artistas favoritos! </p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <br>
+                  <a href="#" class="btn btn-primary js-scroll-trigger">Descubrir</a>
                 </div>
               </div>
             </div>
@@ -110,7 +116,7 @@
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Address</h4>
                 <hr class="my-4">
-                <div class="small text-black-50">Santiago - Londres - Nueva York</div>
+                <div class="small text-black-50">Santiago - Buenos Aires - Los Angeles</div>
               </div>
             </div>
           </div>
@@ -158,7 +164,11 @@
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
-        Copyright &copy; Tallisman Music - 2018
+        Copyright &copy; Talisman Music 2018
+        <p>
+          <a href="<%= main_terms_path %>"> Terminos y condiciones -  </a>
+          <a href="<%= main_help_path %>"> Centro de ayuda </a>
+        </p>
       </div>
     </footer>
 
